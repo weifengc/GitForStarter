@@ -1,8 +1,11 @@
-#Good README Template
-[template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-
 #Git commands
-##Basic git commands
+Here are some basic git commands you may need.
+- Most used commands, clone git, commit code and push changes.
+- Branches, create prod and dev branches, merge branches.
+- Config commands, show and update git configurations.
+
+
+##Most used commands
 Bring a git project to local computer
 ```
 git clone <your git project url>
@@ -20,10 +23,10 @@ Push the change to server
 git push
 ```
 
+##Branches
 
 
-
-##Config git user name and email
+##Config commands
 Show user name
 ```
 git config user.name
