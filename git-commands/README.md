@@ -4,9 +4,10 @@ Here are some basic git commands you may need.
 - Branches, create prod and dev branches, merge branches.
 - Config commands, show and update git configurations.
 ##Dummy Git repository
+```
 export GIT_DUMMY_URL=https://github.com/weifengc/GitDummyRepo
 export GIT_FOLDER=GitDummyRepo
-
+```
 
 ##Most used commands
 Bring a git project to local computer
