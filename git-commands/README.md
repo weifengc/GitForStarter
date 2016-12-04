@@ -3,12 +3,23 @@ Here are some basic git commands you may need.
 - Most used commands, clone git, commit code and push changes.
 - Branches, create prod and dev branches, merge branches.
 - Config commands, show and update git configurations.
+##Dummy Git repository
+export GIT_DUMMY_URL=https://github.com/weifengc/GitDummyRepo
+export GIT_FOLDER=GitDummyRepo
 
 
 ##Most used commands
 Bring a git project to local computer
 ```
-git clone <your git project url>
+git clone $GIT_DUMMY_URL
+```
+Go to the git project forlder
+```
+cd $GIT_FOLDER
+```
+Make some changes, eg. add one line to dummy.txt
+```
+echo "Dummy line added by $USER" > dummy.txt
 ```
 After make some changes, make one commit
 ```
@@ -24,6 +35,34 @@ git push
 ```
 
 ##Branches
+Examples are copied from [here](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging). You can read it for details.
+
+Create a new branch "newBranch"  using the latest commit
+```
+git checkout -b newBranch
+```
+Add one line to newBranch dummy.txt
+```
+echo "Add one line to newBranch by $USER" >> dummy.txt
+```
+Check out all branches you have
+```
+git branch
+```
+Switch to branch "master"
+```
+git checkout master
+```
+Merge newBranch to master
+```
+git merge newBranch
+```
+Delete branch newBranch
+```
+git branch -d newBranch
+```
+
+
 
 
 ##Config commands
