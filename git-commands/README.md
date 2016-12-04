@@ -3,16 +3,17 @@ Here are some basic git commands you may need.
 - Most used commands, clone git, commit code and push changes.
 - Branches, create prod and dev branches, merge branches.
 - Config commands, show and update git configurations.
-##Dummy Git repository
+
+##Config Git repository
 ```
-export GIT_DUMMY_URL=https://github.com/weifengc/GitDummyRepo
+export GIT_URL=https://github.com/weifengc/GitDummyRepo
 export GIT_FOLDER=GitDummyRepo
 ```
 
 ##Most used commands
 Bring a git project to local computer
 ```
-git clone $GIT_DUMMY_URL
+git clone $GIT_URL
 ```
 Go to the git project forlder
 ```
