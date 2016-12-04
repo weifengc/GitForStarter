@@ -29,7 +29,7 @@ git status
 ```
 After make some changes, make one commit
 ```
-git add -all
+git add --all
 ```
 Give some description for the commit
 ```
