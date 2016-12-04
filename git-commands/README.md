@@ -23,6 +23,10 @@ Make some changes, eg. add one line to dummy.txt
 ```
 echo "Dummy line added by $USER" > dummy.txt
 ```
+Check current git status
+```
+git status
+```
 After make some changes, make one commit
 ```
 git add -all
