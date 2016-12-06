@@ -63,9 +63,13 @@ Merge newBranch to master
 ```
 git merge newBranch
 ```
-Delete branch newBranch
+Delete branch newBranch locally
 ```
 git branch -d newBranch
+```
+Delete branch on server
+```
+git push origin --delete newBranch
 ```
 Merge some commits, commitA is not included, commitB is included
 ```
