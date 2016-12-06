@@ -67,8 +67,11 @@ Delete branch newBranch
 ```
 git branch -d newBranch
 ```
-
-
+Merge some commits, commitA is not included, commitB is included
+```
+git checkout master
+git cherry-pick <commitA>...<commitB>
+```
 
 
 ##Config commands
